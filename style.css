@@ -1,0 +1,593 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    font-family: 'Roboto Condensed', sans-serif;
+}
+/***************************
+Header Area 
+*****************************/
+.mobile-app-banner{
+    background-image: url(images/web-template.png);
+    background-size: cover;
+    height: 800px;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+.mobile-app-banner-content{
+    color: white;
+    margin-top: 200px;
+}
+.mobile-app-banner h1{
+    font-size: 56px;
+    font-weight: bold;
+    color: white;
+}
+.mobile-app-banner p{
+    font-size: 18px;
+    color: white;
+    line-height: 40px;
+    margin: 30px 0;
+}
+.btn{
+    display: inline-block;
+    padding: 6px 12px;
+    margin-bottom: 0;
+    font-weight: normal;
+    line-height: 1.42;
+    text-align: center;
+    white-space: nowrap;
+    vertical-align: middle;
+    cursor: pointer;
+    user-select: none;
+    background-image: none;
+    border: 1px solid transparent;
+    border-image: 4px;
+}
+.buttons .btn{
+    padding: 18px 40px;
+    margin-bottom: 20px;
+    margin-right: 13px;
+}
+.btn-pink, .btn-blue{
+    background-color: #fb527a;
+    color: white;
+    font-weight: 600 !important;
+    margin-right: 10px;
+    font-size: 14px;
+}
+.feature-text{
+    padding: 50px;
+    border: 2px solid #ddd;
+    background: white;
+    border-radius: 6px;
+    margin-bottom: 30px;
+    transition: all 0.3s ease-in-out;
+}
+.feature-text h4{
+    margin: 40px 0;
+    font-size: 18px;
+}
+.feature-text:hover{
+    border-top: 6px solid #fb527a;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+}
+.img-hover1{
+    background: url(images/girl-hover2.png);
+    height: 60px;
+    background-repeat: no-repeat;
+    background-position: 50%;
+}
+.img-hover2{
+    background: url(images/hand-hover.png);
+    height: 60px;
+    background-repeat: no-repeat;
+    background-position: 50%;
+}
+.img-hover3{
+    background: url(images/desktop-hover.png);
+    height: 60px;
+    background-repeat: no-repeat;
+    background-position: 50%;
+}
+.img-hover4{
+    background: url(images/girl-hover2.png);
+    height: 60px;
+    background-repeat: no-repeat;
+    background-position: 50%;
+}
+.img-hover5{
+    background: url(images/mobile-lock-hover.png);
+    height: 60px;
+    background-repeat: no-repeat;
+    background-position: 50%;
+}
+.img-hover6{
+    background: url(images/pin-map-hover.png);
+    height: 60px;
+    background-repeat: no-repeat;
+    background-position: 50%;
+}
+.img-hover7{
+    background: url(images/person-hover.png);
+    height: 60px;
+    background-repeat: no-repeat;
+    background-position: 50%;
+}
+.img-hover8{
+    background: url(images/mobile-hover.png);
+    height: 60px;
+    background-repeat: no-repeat;
+    background-position: 50%;
+}
+/***************************
+Video Area 
+*****************************/
+.video{
+    padding-top: 75px;
+    padding-bottom: 5px;
+}
+.overlay{
+    position: absolute;
+    top: 0;
+    border: 0;
+    right: 0;
+    left: 0;
+    width: 100%;
+}
+.overlay img{
+    width: auto !important;
+    margin: 209px 0px;
+}
+.overlay-image{
+    position: relative;
+    text-align: center;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+}
+.overlay-image img{
+    width: 100%;
+    padding: 10px;
+    cursor: pointer;
+}
+.overlay-image :hover .overlay{
+opacity: 1;
+}
+.overlay-image .overlay{
+    background:linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7));
+    border-radius: 4px;
+    top: 10px;
+    left: 10px;
+    width: calc(100% - 20px);
+    height: calc(100% - 20px);
+}
+button.mfp-close{
+    overflow: visible;
+    cursor: pointer;
+    background: white;
+    display: block;
+    outline: none;
+    padding: 0;
+    z-index: 1046;
+    box-shadow: none;
+}
+.mfp-close{
+    width: 44px;
+    height: 44px;
+    border-radius: 50%;
+    position: absolute;
+    right: 40px;
+    top: 0;
+    color: #000;
+    
+}
+.overlay a{
+    outline: none;
+}
+/***************************
+About Area 
+*****************************/
+#about{
+    background: #f4f4f4;
+    padding-top: 120px;
+    padding: 120px;
+    margin-top: 60px;
+}
+.about-item{
+    background: white;
+    padding: 80px 30px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+.about-item i{
+    font-size: 42px;
+    margin: 0;
+}
+.about-item h3{
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+.about-item hr{
+    width: 45px;
+    height: 3px;
+    background-color: #fb527a;
+    margin:  0 auto;
+    border: none;
+}
+.about-item p{
+    margin-top: 25px;
+    text-align: center;
+}
+.about-item:hover{
+    background-color: #fb527a;
+}
+.about-item:hover i,
+.about-item:hover h3,
+.about-item:hover p{
+    color: white;
+}
+.about-item:hover hr{
+    background-color: white;
+}
+.about-item,
+.about-item i,
+.about-item hr{
+    transition: all 400ms linear;
+}
+.about-item h3,
+.about-item p{
+    transition: all 400ms linear;
+}
+/*-----------------------------------
+Team SEction Style
+----------------------------------------------*/
+#team-left{
+    margin: 8px;
+    position: relative;
+}
+.team-member-overlay{
+    background: rgba(33, 34, 38, 0.9);
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+    opacity: 0;
+    transition: all 300ms linear;
+}
+.team-member-info{
+    width: 100%;
+    height: 100%;
+    padding: 80px 0;
+
+}
+.team-member-info h4{
+    color: #fb527a;
+    font-size: 16px;
+    margin: 0;
+}
+.team-member-info p{
+    color: white;
+}
+.team-member:hover .team-member-overlay{
+    opacity: 1;
+}
+ul.social-list{
+    padding: 0;
+    margin-top:20px ;
+}
+ul.social-list li {
+    padding: 0;
+    display: inline-block;
+}
+ul.social-list li a{
+    border: 1px solid white;
+    width: 35px;
+    height: 35px;
+    display: inline-block;
+    line-height: 35px;
+    color: white;
+    border-radius: 50%;
+    transition: all 400ms linear;
+}
+ul.social-list li:nth-child(1) a:hover{
+    background: #3b5998;
+    border-color: transparent;
+}
+ul.social-list li:nth-child(2) a:hover{
+    background: #00aced;
+    border-color: transparent;
+}
+ul.social-list li:nth-child(3) a:hover{
+    background: red;
+    border-color: transparent;
+}
+.skill h4{
+    line-height: 62px;
+    margin: 0;
+    font-weight: normal;
+}
+.barfiller {
+    width: 100%;
+    height: 15px;
+    background: #fcfcfc;
+    border: 1px solid #ccc;
+    position: relative;
+    margin-bottom: 20px;
+    box-shadow: inset 1px 4px 9px -6px rgba(0,0,0,.5);
+    -moz-box-shadow: inset 1px 4px 9px -6px rgba(0,0,0,.5);
+  }
+  
+  .barfiller .fill {
+    display: block;
+    position: relative;
+    width: 0px;
+    height: 100%;
+    background: #333;
+    z-index: 1;
+  }
+  
+  .barfiller .tipWrap { display: none; }
+  
+  .barfiller .tip {
+    margin-top: -30px;
+    padding: 2px 4px;
+    font-size: 11px;
+    color: #fff;
+    left: 0px;
+    position: absolute;
+    z-index: 2;
+    background: #333;
+  }
+  
+  .barfiller .tip:after {
+    border: solid;
+    border-color: rgba(0,0,0,.8) transparent;
+    border-width: 6px 6px 0 6px;
+    content: "";
+    display: block;
+    position: absolute;
+    left: 9px;
+    top: 100%;
+    z-index: 9;
+  }
+.social-icons i{
+    font-size: 14px;
+    color: white;
+    padding: 10px;
+    background-color: #fb527a;
+    cursor: pointer;
+}
+.manager{
+    width: 100%;
+    height: 540px;
+    background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url(images/web-template.png);
+    transition: 1s;
+}
+.manager:hover{
+    background: linear-gradient(rgba(0, 0, 0, 0.9), rgba(0, 0, 0, 0.9)), url(images/web-template.png);
+}
+/*-----------------------------------
+Features SEction Style
+----------------------------------------------*/
+.feature-right i{
+    font-size: 24px;
+    border: 5px solid #eff3f7;
+    border-radius: 50%;
+    line-height: 24px;
+    text-align: center;
+    float: right;
+    padding: 10px;
+    transition: all 400ms linear;
+}
+.feature1:hover i{
+    background-color: aqua;
+}
+.feature2:hover i{
+    background-color: red;
+}
+.feature3:hover i{
+    background-color: yellow;
+}
+
+/*-----------------------------------
+Carousel SEction Style
+----------------------------------------------*/
+
+.carousel{
+    padding: 30px 0;
+    background-color: #eff3f7;
+}
+.carousel-inner{
+    background-color: white;
+}
+.carousel-indicators li{
+    text-indent: 5px !important;
+    width: 60px;
+    height: 24px;
+
+}
+.carousel ul {
+    text-align: center;
+    padding: 5px;
+}
+.carousel ul li{
+    display: inline-block;
+    padding: 4px 10px;
+    text-transform: uppercase;
+    cursor: pointer;
+}
+.indicate .active{
+    border-bottom: 4px solid #fb527a;
+}
+
+/*-----------------------------------
+Filter SEction Style
+----------------------------------------------*/
+.filter .col-md-3,
+.filter .col-sm-3{
+    padding-left: 0;
+    padding-right: 0;
+}
+.portfolio-filter{
+    margin: 0 auto;
+    padding: 10px 20px;
+    border-radius: 40px;
+    box-shadow: 5px 5px 15px #efefef;
+}
+.portfolio-filter button{
+    padding: 4px 10px;
+    margin: 2px;
+    border: none;
+    background: transparent;
+    border-radius: 10px;
+    transition: all 200ms linear;
+}
+.portfolio-filter button:hover{
+    background: #fb527a;
+    color: white;
+}
+.filter img{
+    width: 100%;
+    height: 100%;
+}
+
+/*-----------------------------------
+Testimonial SEction Style
+----------------------------------------------*/
+.testimnoial{
+    height: 80vh;
+    background-image: linear-gradient(to right, #fb527a,#ffc373, #fb527a);
+}
+/*------------------Package---------------*/
+.pack{
+    transition: all 200ms linear;
+    padding: 20px 10px;
+    box-shadow:5px 10px 20px #efefef;
+    border-radius: 5px;
+}
+.pack span{
+    font-size: 36px;
+}
+.pack ul li{
+    list-style: none;
+}
+.pack button{
+    border: none;
+    padding: 10px 20px;
+    border-radius: 20px;
+    background: #fb527a;
+    color: white;
+    transition: all 200ms linear;
+}
+.pack:hover{
+    background: #fb527a;
+    color: white;
+}
+.pack:hover button{
+    background: white;
+    color: black;
+}
+/*-----------------------------CounterUP------------------*/
+.counter{
+    height: 50vh;
+    width: 100%;
+    background-image: url(images/ER.png);
+    background-position: bottom center;
+    color: white;
+}
+.counter h4{
+    margin: 50% 5%;
+}
+.counter h4 span{
+    font-size: 36px;
+}
+
+.company-logo .carousel{
+    background: #fff;
+}
+.company-logo img{
+    margin: auto;
+    padding: 10px;
+    width: 100%;
+}
+
+.blog{
+    background: #f7f3f7;
+}
+.blog .post strong{
+    border-bottom:  4px solid #000;
+}
+/*---------------------Contact----------------------------------------------*/
+.contact .heading{
+    width: 100%;
+    height: 40vh;
+    background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url(images/web-template.png);
+    background-position: center;
+    color: white;
+    text-align: center;
+    padding-top: 40px;
+}
+.message{
+    margin:-60px 10px 10px 0px;
+    padding: 10px;
+    box-shadow:5px 10px 20px #efefef;
+    z-index: 99;
+    background: white;
+}
+.message input{
+    outline: none;
+    border: 1px solid #efefef;
+    padding: 10px 15px;
+    border-radius: 16px;
+    margin: 4px;
+    width:45%;
+}
+.message textarea{
+    outline: none;
+    border: 1px solid #efefef;
+    padding: 10px 15px;
+    border-radius: 16px;
+    margin: 4px;
+}
+.message input::placeholder{
+    color: #efefef;
+}
+.message textarea::placeholder{
+    color: #efefef;
+}
+.contact-info{
+    margin:-60px 10px 10px 0px;
+    padding: 10px;
+    box-shadow:5px 10px 20px #efefef;
+    z-index: 99;
+    background: #fb527a;
+    color: white;
+}
+.contact-info i{
+    padding: 10px;
+    font-size: 20px;
+}
+.contact-info a{
+    text-decoration: none;
+    color: white;
+    padding: 5px;
+}
+.contact .mybtn{
+    padding: 8px 15px;
+    margin: 3px 5px;
+    background: #fb527a;
+    color: white;
+    border-radius: 8px;
+    transition: all 200ms linear;
+}
+.contact .mybtn:hover{
+    background: #c75973;
+}
+
+/*-------------------footer---------------------*/
+footer{
+    background-color: #212021;
+    height: 40vh;
+    padding: 5% 20px;
+}
